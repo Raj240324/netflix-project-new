@@ -96,3 +96,12 @@
   font-weight: 500;
   color: white;
 }
+@media all and (max-width:768px){
+  .main-container img {
+    display:none;
+  }
+  
+}
+
+
+
