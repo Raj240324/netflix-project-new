@@ -1,0 +1,36 @@
+.title-card {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 1148px;
+}
+
+.card-list {
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+.card-list {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.card-list img {
+  border-radius: 4px;
+  width: 240px;
+}
+
+.card-list .card {
+  position: relative;
+}
+.card-list .card p {
+  position: absolute;
+  width: max-content;
+  bottom: 25px;
+  right: 10px;
+}

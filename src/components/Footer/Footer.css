@@ -1,0 +1,25 @@
+.footer {
+  width: 1166px;
+  margin: 0 auto;
+  padding: 5% 30%;
+}
+.footer-icons img {
+  width: 45px;
+  margin-right: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 25px;
+  row-gap: 20px;
+}
+
+.footer ul li:hover {
+  color: rgb(200, 197, 197);
+}
+.copyright {
+  color: rgb(158, 155, 155);
+  margin-top: 15px;
+}
