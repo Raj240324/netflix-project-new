@@ -34,7 +34,7 @@ const LandingPage = () => {
 
           <div className="input">
             <input type="email" placeholder="Email address" />
-            <NavLink exact to="/antlogin">
+            <NavLink exact to="/login">
               <button className="start-btn">Get Started </button>
             </NavLink>
           </div>
